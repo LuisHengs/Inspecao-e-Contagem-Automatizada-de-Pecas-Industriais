@@ -1,0 +1,72 @@
+{
+  "n_images": 10,
+  "iou_threshold": 0.5,
+  "localization": {
+    "tp": 74,
+    "fp": 11,
+    "fn": 45,
+    "precision": 0.8705882352941177,
+    "recall": 0.6218487394957983,
+    "f1": 0.7254901960784313,
+    "mean_iou": 0.6345292076691328
+  },
+  "by_group": {
+    "porca": {
+      "tp": 23,
+      "fp": 0,
+      "fn": 9,
+      "precision": 1.0,
+      "recall": 0.71875,
+      "f1": 0.8363636363636363,
+      "mean_iou": 0.7682881504405424
+    },
+    "parafuso": {
+      "tp": 51,
+      "fp": 11,
+      "fn": 36,
+      "precision": 0.8225806451612904,
+      "recall": 0.5862068965517241,
+      "f1": 0.6845637583892618,
+      "mean_iou": 0.5742065472035951
+    },
+    "micro": {
+      "tp": 74,
+      "fp": 11,
+      "fn": 45,
+      "precision": 0.8705882352941177,
+      "recall": 0.6218487394957983,
+      "f1": 0.7254901960784313,
+      "mean_iou": 0.6345292076691328
+    },
+    "macro": {
+      "precision": 0.9112903225806452,
+      "recall": 0.6524784482758621,
+      "f1": 0.760463697376449,
+      "mean_iou": 0.6712473488220687
+    }
+  },
+  "fine_class_accuracy_on_tp": 0.9324324324324325,
+  "counting": {
+    "total": {
+      "exact_match_rate": 0.5,
+      "mae": 3.4,
+      "rmse": 5.865151319446072,
+      "bias": -3.4,
+      "total_pred": 85,
+      "total_gt": 119
+    },
+    "porca": {
+      "exact_match_rate": 0.6,
+      "mae": 0.9,
+      "total_pred": 23,
+      "total_gt": 32
+    },
+    "parafuso": {
+      "exact_match_rate": 0.5,
+      "mae": 2.5,
+      "total_pred": 62,
+      "total_gt": 87
+    }
+  },
+  "avg_total_ms": 62.78
+}

@@ -1,0 +1,14 @@
+class_id,group,n,lado_maior_mediana,lado_menor_mediana
+1,parafuso,81,711.9,117.2
+2,parafuso,81,955.1,111.0
+3,parafuso,83,593.1,109.0
+4,parafuso,83,234.3,71.0
+5,parafuso,101,291.8,99.0
+6,parafuso,101,302.3,103.0
+7,porca,97,65.7,64.6
+8,parafuso,97,229.4,143.0
+9,porca,85,232.6,219.3
+10,porca,92,91.0,87.9
+11,porca,92,175.0,167.1
+12,parafuso,88,137.2,48.5
+13,parafuso,88,77.5,63.8
