@@ -1031,10 +1031,10 @@
     }
   ],
   "timing_ms": {
-    "total": 283.89,
-    "segmentation": 138.44,
-    "features": 145.22,
-    "classification": 0.23
+    "total": 566.57,
+    "segmentation": 292.52,
+    "features": 273.66,
+    "classification": 0.39
   },
   "config": {
     "channel": "b",
